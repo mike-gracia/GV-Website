@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+			<link href="css/layout.css" rel="stylesheet" type="text/css">
+			<link href="css/jquery.lightbox-0.5.css" rel="stylesheet" type="text/css" media="screen">
+			<script type="text/javascript" src="js/jquery.js"></script>
+			<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>
+			
+			<script type="text/javascript">
+    $(function() {
+        $('#gallery a').lightBox();
+    });
+    </script>
+   	<style type="text/css">
+	#gallery {
+		
+		padding: 10px;
+		width: 520px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#gallery ul { list-style: none; }
+	#gallery ul li { display: inline; }
+	#gallery ul img {
+		border: 2px solid black;
+	}
+	#gallery ul a:hover img {
+		border: 2px solid blue;
+		color: #fff;
+	}
+	#gallery ul a:hover { color: #fff; }
+	</style>
+
+	
+
+</head>
+		
+<body id="page">
+	<div id="pagewrapper">	
+		<div id="header">
+			<img src="pictures/logolines.png" width="40%" height="100%" />
+
+
+			<div class="menu">
+				
+				<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="newtoyoga.php">About</a></li>
+				<li><a href="teachertraining.php">Projects</a></li>
+				<li><a href="gallery.html">Gallery</a></li>
+				<li><a href="ourstaff.php">Contact Us</a></li>
+				</ul>
+				
+			</div>
+		</div> <!-- end header -->
+		<div class="gallerybox">
+			<div class="submenu">
+				<ul>
+				<li><a href="#">Residential</a></li>
+				<li><a href="#">Fountains</a></li>
+				</ul>
+			</div>
+			
+		<div id="gallery">
+    <ul>
+        <li>
+            <a href="photos/image1.jpg" title="The description goes here">
+                <img src="photos/thumb_image1.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image2.jpg" title="The description goes here">
+                <img src="photos/thumb_image2.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image3.jpg" title="The description goes here">
+                <img src="photos/thumb_image3.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image4.jpg" title="The description goes here">
+                <img src="photos/thumb_image4.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+        <li>
+            <a href="photos/image5.jpg" title="The description goes here ">
+                <img src="photos/image5.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+		
+		<li>
+            <a href="photos/6.jpg" title="Hiller Residence ">
+                <img src="photos/6.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+		
+		<li>
+            <a href="photos/7.jpg" title="The description goes here ">
+                <img src="photos/7.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+		
+		<li>
+            <a href="photos/8.jpg" title="The description goes here ">
+                <img src="photos/8.jpg" width="72" height="72" alt="" />
+            </a>
+        </li>
+	
+    </ul>
+</div>
+
+
+		</div>
+
+	</div>		
+</div>		
+</body>
+</html>

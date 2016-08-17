@@ -1,0 +1,228 @@
+	#page
+	{
+		margin:0;
+		background-color:white;
+		
+		
+	}
+	#pagewrapper
+	{
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+		width: 1000px;
+		height: 1000px;
+		
+		background-color:#c4b8b8;
+		 
+	}
+	
+ 	
+	 
+	 #header {
+		position:relative;
+		 height: 100px; 
+		 background-image:url('../pictures/dolphins3.png');
+	}
+	
+
+	
+	.menu
+	{
+	width: 1000px;
+	height:42px;	
+    background-color: white;
+	border-top:5px solid black;
+	border-bottom:5px solid black;
+	}
+
+	
+	
+	.menu ul
+	{
+	float:right;
+	list-style-type:none;
+	margin:0;
+	padding-top:7px;
+	width:950px;
+	
+	}
+	.menu li
+	{
+	display:inline;
+	font-family:"Helvetica Neue","Helvetica","Sans-Serif";
+	}
+
+
+	.menu ul li a:link,.menu ul li a:visited
+	{
+	font-weight:bold;
+	font-size:24px;
+	color:#0a1469;
+	background-color:white;
+	padding-left:31px;
+	padding-right:31px;
+	text-decoration:none;
+	}
+
+
+	.menu ul li a:hover,.menu ul li a:active
+	{
+	background-color:#0a1469;
+	color:white;
+	
+	}
+	
+	.submenu
+	{
+	position: relative;
+	margin-left:15px;
+	top: 0px;
+	width: 100%;
+	height:40px;		/* use this to move text down */
+
+	
+	
+	}
+
+	
+	
+	.submenu ul
+	{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+	padding-top:10px;
+	
+	
+	
+	}
+	.submenu li
+	{
+	display:inline;
+	margin:-1px;
+	
+	}
+
+
+	.submenu ul li a:link,.submenu ul li a:visited
+	{
+	font-family:"Helvetica Neue","Helvetica","Sans-Serif";
+	font-weight:bold;
+	font-size:18px;
+	color:#FFFFFF;
+	background-color:#5f8039;
+	text-align:center;
+	padding-left:10px;
+	padding-right:10px;
+	padding-bottom:5px;
+	padding-top:5px;
+	
+	}
+
+
+	.submenu ul li a:hover,.submenu ul li a:active
+	{
+	background-color:#5f8039;
+	color:white;
+	}
+
+	
+	div.gallerybox
+	{
+	position:absolute;
+	left:50px;
+	top: 180px;
+	width: 900px;
+	height: 458px;
+	background-color:white;
+	border-top:8px solid black;
+	border-bottom:8px solid black;
+	}
+	
+
+	
+	div.leftbox
+	{
+		position:absolute;
+		left:50px;
+		top: 180px;
+		width: 400px;
+		height: 458px;
+		background-color:white;
+		border-top:8px solid black;
+		border-bottom:8px solid black;
+		
+	}
+	
+			
+	
+	div.picturebox
+	{
+		position:absolute;
+		width: 400px;
+		height: 300px;
+	}
+	
+
+	
+	div.bigbox
+	{
+		position:absolute;
+		top:180px;
+		right:50px;
+		width:530px;
+		height:458px;
+		border-bottom:8px solid black;
+		border-top:8px solid black;
+		background-color:white;
+	}
+	
+
+	
+	div.textbox
+	{
+		font-family:"Helvetica Neue","Helvetica","Sans-Serif"; 
+		font-size:18px;
+		float:right;
+		width: 95%;
+		height: 90%;
+		padding: 5px;
+		padding-top: 5px;
+		overflow: auto;
+	}
+	
+	a
+	{
+		color:#3e7929;
+		text-decoration:none;
+		size:50px;
+		li {type:square;}
+	}
+		
+	
+	
+
+
+	
+	ul.square {
+	list-style-type:square;
+	color:#3e7929;
+	}
+	
+	h1 {
+	
+		font-size:21px;
+		font-weight:bold;
+	}
+	
+	div.footer
+	{
+		position:absolute;
+		width:1000px;
+		top: 700px;
+		font-size:12px;
+		text-align:center;
+		margin-left:auto;
+		margin-right:auto;
+	}
